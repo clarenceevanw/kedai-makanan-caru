@@ -1,3 +1,5 @@
+import {products, insertProduct} from "./product.js";
+
 const navbarNav = document.querySelector(".navbar-nav");
 const hamburgerMenu = document.querySelector("#hamburger-menu");
 
@@ -10,3 +12,5 @@ document.addEventListener('click', (e) =>{
         navbarNav.classList.remove('active');
     };
 });
+
+insertProduct();
